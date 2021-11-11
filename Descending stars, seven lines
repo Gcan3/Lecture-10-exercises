@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+	for (int x = 1; x <= 7; x++) {
+		for (int y = x; y <= 7; y++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
