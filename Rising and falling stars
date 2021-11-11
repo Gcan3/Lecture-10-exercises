@@ -10,4 +10,11 @@ int main()
 		}
 		cout << endl;
 	}
+	for (int a = 1; a <= 7; a++) {
+		for (int b = a; b <= 7; b++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+
 }
