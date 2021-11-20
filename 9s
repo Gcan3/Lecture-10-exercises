@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+	int y;
+	for (int x = 100; x <= 200; x++) {
+		if (x % 9 == 0) {
+			cout << "The number " << x << " is divisible by 9" << endl;
+			int y = y + x;
+		}
+	}
+	cout << "And the sum of them is " << y << endl;
+	return 0;
+}
+
+//Not working because I did not put "int y = 0"; I found out after submission.
