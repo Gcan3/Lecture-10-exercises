@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+    cout << "Input a number in which this program will calculate all the cubes from 1 to that number:" << endl;
+    int input;
+    cin >> input;
+
+    for (int x = input; x > 0; x--) {
+        int y = x * x * x;
+        cout << "The number " << x << " has a cube value of " << y << endl;
+    }
+}
